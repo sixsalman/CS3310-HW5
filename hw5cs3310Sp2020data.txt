@@ -1,0 +1,101 @@
+Insert: John:Doe, 3310, A
+Delete: John:Doe
+Postorder
+Search: John:Doe
+Insert: Jane:Dane, 1120, B
+Delete: June:Doe
+Delete: John:Doe
+Insert: Aj:Gup, 3310, B
+Insert: Foo:Done, 2240, C
+Inorder
+Preorder
+Insert: Aj:Gupt, 3310, D
+Postorder
+Search: John:Doe
+Search: Jane:Dane
+Inorder
+Insert: Maria:Anders, 2050,B
+Insert: Ana:Trujillo, 1120, B
+Delete: June:Doe
+Delete: Maria:Anders
+Insert: Antonio:Moreno, 3310, B
+Insert: Foo:Done, 2240, C
+Inorder
+Insert: Antonio:Morenot, 3310, D
+Postorder
+Search: Maria:Anders
+Search: Ana:Trujillo
+Inorder
+Insert: John:Doe, 2050,B
+Insert: Christina:Berglund, 1120, B
+Preorder
+Delete: June:Doe
+Delete: John:Doe
+Insert: Thomas:Hardy, 3310, B
+Insert: Foo:Done, 2240, C
+Preorder
+Insert: Thomas:Hardyt, 3310, D
+Postorder
+Search: John:Doe
+Search: Christina:Berglund
+Insert: Hanna:Moos, 2050,B
+Insert: Elizabeth:Lincoln, 1120, B
+Delete: June:Doe
+Insert: Liz:Clay, 3510, C
+Insert: Clay:Liz, 3410, B
+Insert: Doe:John, 2020, A
+Insert: Morenot:Antonio, 3310, A
+Insert: Blah:Blah, 1110, E
+Insert: John:Blew, 3450, I
+Insert: Quincey:Joes, 4441, A
+Insert: Deer:Zoo, 1010, B
+Insert:  :Aqua, 0000, C
+Insert: :Clay, 1110, F
+Insert: Walt:, 2330, A
+Insert: Walt:Disney, 3310, A
+Delete: Hanna:Moos
+Insert: Hard:Marry, 3310, B
+Insert: Waka:Young, 2240, A
+Inorder
+Insert: Hard:Marryt, 3310, D
+Postorder
+Search: Hanna:Moos
+Insert: Alina:Sofia, 3310, C
+Insert: Kayla:Jessie, 3310, B
+Insert: Amma:Mia, 3310, A
+Insert: Aiden:Maden, 3310, D
+Insert: Caleb: Caden, 3310, A
+Search: Elizabeth:Lincoln
+Inorder
+Insert: Steeve:Thebig, 3310, A
+Delete: June:Doe
+Search: Nice
+Delete: Steeve:Thebig
+Insert: Hodah:Thomas, 2240, D
+Insert: Nice:Lolah, 2240, B
+Insert: Hodah:Thomast, 3310, D
+Postorder
+Search: Steeve:Thebig
+Search: Nona:Lana
+Insert: Brown:Yellow, 3310, A
+Insert: Nona:Lana, 1120, B
+Insert: Victoria:Ashworth, 1120, B
+Delete: June:Doe
+Delete: Brown:Yellow
+Insert: Patricio:Simpson, 2240, A
+Insert: Francisco:Chang, 2240, B
+Delete: Hanna:os
+Preorder
+Inorder
+Postorder
+Insert: Justin:Fetrow, 3240, B
+Insert: Mat:Buser, 2230, A
+Insert: Zach:Paschiza, 1310, A
+Insert: Zoo:Zamin, 4210, C
+Search: Aloo:Potato
+Search: Potato
+Search: Aloo
+Delete: Aloo:Potato
+Delete: June:Doe
+Inorder
+Preorder

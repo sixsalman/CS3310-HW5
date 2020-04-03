@@ -1,0 +1,659 @@
+Insert: John:Doe, 3310, A
+	John Doe added at index 0
+
+Delete: John:Doe
+	John Doe deleted from index 0
+
+Postorder
+	Postorder traversal is:
+		EMPTY
+
+Search: John:Doe
+	John Doe not found
+
+Insert: Jane:Dane, 1120, B
+	Jane Dane added at index 0
+
+Delete: June:Doe
+	June Doe was not deleted as no match was found
+
+Delete: John:Doe
+	John Doe was not deleted as no match was found
+
+Insert: Aj:Gup, 3310, B
+	Aj Gup added at index 1
+
+Insert: Foo:Done, 2240, C
+	Foo Done added at index 4
+
+Inorder
+	Inorder traversal is:
+		Name: Aj Gup            	Course Number: 3310		Grade: B
+		Name: Foo Done          	Course Number: 2240		Grade: C
+		Name: Jane Dane         	Course Number: 1120		Grade: B
+
+Preorder
+	Preorder traversal is:
+		Name: Jane Dane         	Course Number: 1120		Grade: B
+		Name: Aj Gup            	Course Number: 3310		Grade: B
+		Name: Foo Done          	Course Number: 2240		Grade: C
+
+Insert: Aj:Gupt, 3310, D
+	Aj Gupt added at index 9
+
+Postorder
+	Postorder traversal is:
+		Name: Aj Gupt           	Course Number: 3310		Grade: D
+		Name: Foo Done          	Course Number: 2240		Grade: C
+		Name: Aj Gup            	Course Number: 3310		Grade: B
+		Name: Jane Dane         	Course Number: 1120		Grade: B
+
+Search: John:Doe
+	John Doe not found
+
+Search: Jane:Dane
+	Jane Dane found at index 0
+
+Inorder
+	Inorder traversal is:
+		Name: Aj Gup            	Course Number: 3310		Grade: B
+		Name: Aj Gupt           	Course Number: 3310		Grade: D
+		Name: Foo Done          	Course Number: 2240		Grade: C
+		Name: Jane Dane         	Course Number: 1120		Grade: B
+
+Insert: Maria:Anders, 2050,B
+	Maria Anders added at index 2
+
+Insert: Ana:Trujillo, 1120, B
+	Ana Trujillo added at index 20
+
+Delete: June:Doe
+	June Doe was not deleted as no match was found
+
+Delete: Maria:Anders
+	Maria Anders deleted from index 2
+
+Insert: Antonio:Moreno, 3310, B
+	Antonio Moreno added at index 42
+
+Insert: Foo:Done, 2240, C
+	Foo Done added at index 10
+
+Inorder
+	Inorder traversal is:
+		Name: Aj Gup            	Course Number: 3310		Grade: B
+		Name: Aj Gupt           	Course Number: 3310		Grade: D
+		Name: Ana Trujillo      	Course Number: 1120		Grade: B
+		Name: Antonio Moreno    	Course Number: 3310		Grade: B
+		Name: Foo Done          	Course Number: 2240		Grade: C
+		Name: Foo Done          	Course Number: 2240		Grade: C
+		Name: Jane Dane         	Course Number: 1120		Grade: B
+
+Insert: Antonio:Morenot, 3310, D
+	Antonio Morenot added at index 86
+
+Postorder
+	Postorder traversal is:
+		Name: Antonio Morenot   	Course Number: 3310		Grade: D
+		Name: Antonio Moreno    	Course Number: 3310		Grade: B
+		Name: Ana Trujillo      	Course Number: 1120		Grade: B
+		Name: Aj Gupt           	Course Number: 3310		Grade: D
+		Name: Foo Done          	Course Number: 2240		Grade: C
+		Name: Foo Done          	Course Number: 2240		Grade: C
+		Name: Aj Gup            	Course Number: 3310		Grade: B
+		Name: Jane Dane         	Course Number: 1120		Grade: B
+
+Search: Maria:Anders
+	Maria Anders not found
+
+Search: Ana:Trujillo
+	Ana Trujillo found at index 20
+
+Inorder
+	Inorder traversal is:
+		Name: Aj Gup            	Course Number: 3310		Grade: B
+		Name: Aj Gupt           	Course Number: 3310		Grade: D
+		Name: Ana Trujillo      	Course Number: 1120		Grade: B
+		Name: Antonio Moreno    	Course Number: 3310		Grade: B
+		Name: Antonio Morenot   	Course Number: 3310		Grade: D
+		Name: Foo Done          	Course Number: 2240		Grade: C
+		Name: Foo Done          	Course Number: 2240		Grade: C
+		Name: Jane Dane         	Course Number: 1120		Grade: B
+
+Insert: John:Doe, 2050,B
+	John Doe added at index 2
+
+Insert: Christina:Berglund, 1120, B
+	Christina Berglund added at index 174
+
+Preorder
+	Preorder traversal is:
+		Name: Jane Dane         	Course Number: 1120		Grade: B
+		Name: Aj Gup            	Course Number: 3310		Grade: B
+		Name: Foo Done          	Course Number: 2240		Grade: C
+		Name: Aj Gupt           	Course Number: 3310		Grade: D
+		Name: Ana Trujillo      	Course Number: 1120		Grade: B
+		Name: Antonio Moreno    	Course Number: 3310		Grade: B
+		Name: Antonio Morenot   	Course Number: 3310		Grade: D
+		Name: Christina Berglund	Course Number: 1120		Grade: B
+		Name: Foo Done          	Course Number: 2240		Grade: C
+		Name: John Doe          	Course Number: 2050		Grade: B
+
+Delete: June:Doe
+	June Doe was not deleted as no match was found
+
+Delete: John:Doe
+	John Doe deleted from index 2
+
+Insert: Thomas:Hardy, 3310, B
+	Thomas Hardy added at index 2
+
+Insert: Foo:Done, 2240, C
+	Foo Done added at index 22
+
+Preorder
+	Preorder traversal is:
+		Name: Jane Dane         	Course Number: 1120		Grade: B
+		Name: Aj Gup            	Course Number: 3310		Grade: B
+		Name: Foo Done          	Course Number: 2240		Grade: C
+		Name: Aj Gupt           	Course Number: 3310		Grade: D
+		Name: Ana Trujillo      	Course Number: 1120		Grade: B
+		Name: Antonio Moreno    	Course Number: 3310		Grade: B
+		Name: Antonio Morenot   	Course Number: 3310		Grade: D
+		Name: Christina Berglund	Course Number: 1120		Grade: B
+		Name: Foo Done          	Course Number: 2240		Grade: C
+		Name: Foo Done          	Course Number: 2240		Grade: C
+		Name: Thomas Hardy      	Course Number: 3310		Grade: B
+
+Insert: Thomas:Hardyt, 3310, D
+	Thomas Hardyt added at index 6
+
+Postorder
+	Postorder traversal is:
+		Name: Christina Berglund	Course Number: 1120		Grade: B
+		Name: Antonio Morenot   	Course Number: 3310		Grade: D
+		Name: Antonio Moreno    	Course Number: 3310		Grade: B
+		Name: Ana Trujillo      	Course Number: 1120		Grade: B
+		Name: Aj Gupt           	Course Number: 3310		Grade: D
+		Name: Foo Done          	Course Number: 2240		Grade: C
+		Name: Foo Done          	Course Number: 2240		Grade: C
+		Name: Foo Done          	Course Number: 2240		Grade: C
+		Name: Aj Gup            	Course Number: 3310		Grade: B
+		Name: Thomas Hardyt     	Course Number: 3310		Grade: D
+		Name: Thomas Hardy      	Course Number: 3310		Grade: B
+		Name: Jane Dane         	Course Number: 1120		Grade: B
+
+Search: John:Doe
+	John Doe not found
+
+Search: Christina:Berglund
+	Christina Berglund found at index 174
+
+Insert: Hanna:Moos, 2050,B
+	Hanna Moos added at index 46
+
+Insert: Elizabeth:Lincoln, 1120, B
+	Elizabeth Lincoln added at index 350
+
+Delete: June:Doe
+	June Doe was not deleted as no match was found
+
+Insert: Liz:Clay, 3510, C
+	Liz Clay added at index 5
+
+Insert: Clay:Liz, 3410, B
+	Clay Liz added at index 701
+
+Insert: Doe:John, 2020, A
+	Doe John added at index 1404
+
+Insert: Morenot:Antonio, 3310, A
+	Morenot Antonio added at index 12
+
+Insert: Blah:Blah, 1110, E
+	Blah Blah added at index 349
+
+Insert: John:Blew, 3450, I
+	John Blew added at index 11
+
+Insert: Quincey:Joes, 4441, A
+	Quincey Joes added at index 26
+
+Insert: Deer:Zoo, 1010, B
+	Deer Zoo added at index 2809
+
+Insert:  :Aqua, 0000, C
+	Aqua added at index 699
+
+Insert: :Clay, 1110, F
+	Clay added at index 1403
+
+Insert: Walt:, 2330, A
+	Walt added at index 14
+
+Insert: Walt:Disney, 3310, A
+	Walt Disney added at index 30
+
+Delete: Hanna:Moos
+	Hanna Moos deleted from index 46
+
+Insert: Hard:Marry, 3310, B
+	Hard Marry added at index 46
+
+Insert: Waka:Young, 2240, A
+	Waka Young added at index 29
+
+Inorder
+	Inorder traversal is:
+		Name: Aj Gup            	Course Number: 3310		Grade: B
+		Name: Aj Gupt           	Course Number: 3310		Grade: D
+		Name: Ana Trujillo      	Course Number: 1120		Grade: B
+		Name: Antonio Moreno    	Course Number: 3310		Grade: B
+		Name: Antonio Morenot   	Course Number: 3310		Grade: D
+		Name: Aqua              	Course Number: 0000		Grade: C
+		Name: Blah Blah         	Course Number: 1110		Grade: E
+		Name: Christina Berglund	Course Number: 1120		Grade: B
+		Name: Clay              	Course Number: 1110		Grade: F
+		Name: Clay Liz          	Course Number: 3410		Grade: B
+		Name: Deer Zoo          	Course Number: 1010		Grade: B
+		Name: Doe John          	Course Number: 2020		Grade: A
+		Name: Elizabeth Lincoln 	Course Number: 1120		Grade: B
+		Name: Foo Done          	Course Number: 2240		Grade: C
+		Name: Foo Done          	Course Number: 2240		Grade: C
+		Name: Foo Done          	Course Number: 2240		Grade: C
+		Name: Hard Marry        	Course Number: 3310		Grade: B
+		Name: Jane Dane         	Course Number: 1120		Grade: B
+		Name: John Blew         	Course Number: 3450		Grade: I
+		Name: Liz Clay          	Course Number: 3510		Grade: C
+		Name: Morenot Antonio   	Course Number: 3310		Grade: A
+		Name: Quincey Joes      	Course Number: 4441		Grade: A
+		Name: Thomas Hardy      	Course Number: 3310		Grade: B
+		Name: Thomas Hardyt     	Course Number: 3310		Grade: D
+		Name: Waka Young        	Course Number: 2240		Grade: A
+		Name: Walt              	Course Number: 2330		Grade: A
+		Name: Walt Disney       	Course Number: 3310		Grade: A
+
+Insert: Hard:Marryt, 3310, D
+	Hard Marryt added at index 94
+
+Postorder
+	Postorder traversal is:
+		Name: Aqua              	Course Number: 0000		Grade: C
+		Name: Blah Blah         	Course Number: 1110		Grade: E
+		Name: Clay              	Course Number: 1110		Grade: F
+		Name: Deer Zoo          	Course Number: 1010		Grade: B
+		Name: Doe John          	Course Number: 2020		Grade: A
+		Name: Clay Liz          	Course Number: 3410		Grade: B
+		Name: Elizabeth Lincoln 	Course Number: 1120		Grade: B
+		Name: Christina Berglund	Course Number: 1120		Grade: B
+		Name: Antonio Morenot   	Course Number: 3310		Grade: D
+		Name: Antonio Moreno    	Course Number: 3310		Grade: B
+		Name: Ana Trujillo      	Course Number: 1120		Grade: B
+		Name: Aj Gupt           	Course Number: 3310		Grade: D
+		Name: Hard Marryt       	Course Number: 3310		Grade: D
+		Name: Hard Marry        	Course Number: 3310		Grade: B
+		Name: Foo Done          	Course Number: 2240		Grade: C
+		Name: Foo Done          	Course Number: 2240		Grade: C
+		Name: Foo Done          	Course Number: 2240		Grade: C
+		Name: Aj Gup            	Course Number: 3310		Grade: B
+		Name: John Blew         	Course Number: 3450		Grade: I
+		Name: Quincey Joes      	Course Number: 4441		Grade: A
+		Name: Morenot Antonio   	Course Number: 3310		Grade: A
+		Name: Liz Clay          	Course Number: 3510		Grade: C
+		Name: Waka Young        	Course Number: 2240		Grade: A
+		Name: Walt Disney       	Course Number: 3310		Grade: A
+		Name: Walt              	Course Number: 2330		Grade: A
+		Name: Thomas Hardyt     	Course Number: 3310		Grade: D
+		Name: Thomas Hardy      	Course Number: 3310		Grade: B
+		Name: Jane Dane         	Course Number: 1120		Grade: B
+
+Search: Hanna:Moos
+	Hanna Moos not found
+
+Insert: Alina:Sofia, 3310, C
+	Alina Sofia added at index 41
+
+Insert: Kayla:Jessie, 3310, B
+	Kayla Jessie added at index 24
+
+Insert: Amma:Mia, 3310, A
+	Amma Mia added at index 84
+
+Insert: Aiden:Maden, 3310, D
+	Aiden Maden added at index 3
+
+Insert: Caleb: Caden, 3310, A
+	Caleb  Caden added at index 700
+
+Search: Elizabeth:Lincoln
+	Elizabeth Lincoln found at index 350
+
+Inorder
+	Inorder traversal is:
+		Name: Aiden Maden       	Course Number: 3310		Grade: D
+		Name: Aj Gup            	Course Number: 3310		Grade: B
+		Name: Aj Gupt           	Course Number: 3310		Grade: D
+		Name: Alina Sofia       	Course Number: 3310		Grade: C
+		Name: Amma Mia          	Course Number: 3310		Grade: A
+		Name: Ana Trujillo      	Course Number: 1120		Grade: B
+		Name: Antonio Moreno    	Course Number: 3310		Grade: B
+		Name: Antonio Morenot   	Course Number: 3310		Grade: D
+		Name: Aqua              	Course Number: 0000		Grade: C
+		Name: Blah Blah         	Course Number: 1110		Grade: E
+		Name: Caleb  Caden      	Course Number: 3310		Grade: A
+		Name: Christina Berglund	Course Number: 1120		Grade: B
+		Name: Clay              	Course Number: 1110		Grade: F
+		Name: Clay Liz          	Course Number: 3410		Grade: B
+		Name: Deer Zoo          	Course Number: 1010		Grade: B
+		Name: Doe John          	Course Number: 2020		Grade: A
+		Name: Elizabeth Lincoln 	Course Number: 1120		Grade: B
+		Name: Foo Done          	Course Number: 2240		Grade: C
+		Name: Foo Done          	Course Number: 2240		Grade: C
+		Name: Foo Done          	Course Number: 2240		Grade: C
+		Name: Hard Marry        	Course Number: 3310		Grade: B
+		Name: Hard Marryt       	Course Number: 3310		Grade: D
+		Name: Jane Dane         	Course Number: 1120		Grade: B
+		Name: John Blew         	Course Number: 3450		Grade: I
+		Name: Kayla Jessie      	Course Number: 3310		Grade: B
+		Name: Liz Clay          	Course Number: 3510		Grade: C
+		Name: Morenot Antonio   	Course Number: 3310		Grade: A
+		Name: Quincey Joes      	Course Number: 4441		Grade: A
+		Name: Thomas Hardy      	Course Number: 3310		Grade: B
+		Name: Thomas Hardyt     	Course Number: 3310		Grade: D
+		Name: Waka Young        	Course Number: 2240		Grade: A
+		Name: Walt              	Course Number: 2330		Grade: A
+		Name: Walt Disney       	Course Number: 3310		Grade: A
+
+Insert: Steeve:Thebig, 3310, A
+	Steeve Thebig added at index 54
+
+Delete: June:Doe
+	June Doe was not deleted as no match was found
+
+Search: Nice
+	Nice not found
+
+Delete: Steeve:Thebig
+	Steeve Thebig deleted from index 54
+
+Insert: Hodah:Thomas, 2240, D
+	Hodah Thomas added at index 190
+
+Insert: Nice:Lolah, 2240, B
+	Nice Lolah added at index 53
+
+Insert: Hodah:Thomast, 3310, D
+	Hodah Thomast added at index 382
+
+Postorder
+	Postorder traversal is:
+		Name: Aiden Maden       	Course Number: 3310		Grade: D
+		Name: Amma Mia          	Course Number: 3310		Grade: A
+		Name: Alina Sofia       	Course Number: 3310		Grade: C
+		Name: Aqua              	Course Number: 0000		Grade: C
+		Name: Caleb  Caden      	Course Number: 3310		Grade: A
+		Name: Blah Blah         	Course Number: 1110		Grade: E
+		Name: Clay              	Course Number: 1110		Grade: F
+		Name: Deer Zoo          	Course Number: 1010		Grade: B
+		Name: Doe John          	Course Number: 2020		Grade: A
+		Name: Clay Liz          	Course Number: 3410		Grade: B
+		Name: Elizabeth Lincoln 	Course Number: 1120		Grade: B
+		Name: Christina Berglund	Course Number: 1120		Grade: B
+		Name: Antonio Morenot   	Course Number: 3310		Grade: D
+		Name: Antonio Moreno    	Course Number: 3310		Grade: B
+		Name: Ana Trujillo      	Course Number: 1120		Grade: B
+		Name: Aj Gupt           	Course Number: 3310		Grade: D
+		Name: Hodah Thomast     	Course Number: 3310		Grade: D
+		Name: Hodah Thomas      	Course Number: 2240		Grade: D
+		Name: Hard Marryt       	Course Number: 3310		Grade: D
+		Name: Hard Marry        	Course Number: 3310		Grade: B
+		Name: Foo Done          	Course Number: 2240		Grade: C
+		Name: Foo Done          	Course Number: 2240		Grade: C
+		Name: Foo Done          	Course Number: 2240		Grade: C
+		Name: Aj Gup            	Course Number: 3310		Grade: B
+		Name: Kayla Jessie      	Course Number: 3310		Grade: B
+		Name: John Blew         	Course Number: 3450		Grade: I
+		Name: Nice Lolah        	Course Number: 2240		Grade: B
+		Name: Quincey Joes      	Course Number: 4441		Grade: A
+		Name: Morenot Antonio   	Course Number: 3310		Grade: A
+		Name: Liz Clay          	Course Number: 3510		Grade: C
+		Name: Waka Young        	Course Number: 2240		Grade: A
+		Name: Walt Disney       	Course Number: 3310		Grade: A
+		Name: Walt              	Course Number: 2330		Grade: A
+		Name: Thomas Hardyt     	Course Number: 3310		Grade: D
+		Name: Thomas Hardy      	Course Number: 3310		Grade: B
+		Name: Jane Dane         	Course Number: 1120		Grade: B
+
+Search: Steeve:Thebig
+	Steeve Thebig not found
+
+Search: Nona:Lana
+	Nona Lana not found
+
+Insert: Brown:Yellow, 3310, A
+	Brown Yellow added at index 1401
+
+Insert: Nona:Lana, 1120, B
+	Nona Lana added at index 108
+
+Insert: Victoria:Ashworth, 1120, B
+	Victoria Ashworth added at index 59
+
+Delete: June:Doe
+	June Doe was not deleted as no match was found
+
+Delete: Brown:Yellow
+	Brown Yellow deleted from index 1401
+
+Insert: Patricio:Simpson, 2240, A
+	Patricio Simpson added at index 218
+
+Insert: Francisco:Chang, 2240, B
+	Francisco Chang added at index 93
+
+Delete: Hanna:os
+	Hanna os was not deleted as no match was found
+
+Preorder
+	Preorder traversal is:
+		Name: Jane Dane         	Course Number: 1120		Grade: B
+		Name: Aj Gup            	Course Number: 3310		Grade: B
+		Name: Aiden Maden       	Course Number: 3310		Grade: D
+		Name: Foo Done          	Course Number: 2240		Grade: C
+		Name: Aj Gupt           	Course Number: 3310		Grade: D
+		Name: Ana Trujillo      	Course Number: 1120		Grade: B
+		Name: Alina Sofia       	Course Number: 3310		Grade: C
+		Name: Amma Mia          	Course Number: 3310		Grade: A
+		Name: Antonio Moreno    	Course Number: 3310		Grade: B
+		Name: Antonio Morenot   	Course Number: 3310		Grade: D
+		Name: Christina Berglund	Course Number: 1120		Grade: B
+		Name: Blah Blah         	Course Number: 1110		Grade: E
+		Name: Aqua              	Course Number: 0000		Grade: C
+		Name: Caleb  Caden      	Course Number: 3310		Grade: A
+		Name: Elizabeth Lincoln 	Course Number: 1120		Grade: B
+		Name: Clay Liz          	Course Number: 3410		Grade: B
+		Name: Clay              	Course Number: 1110		Grade: F
+		Name: Doe John          	Course Number: 2020		Grade: A
+		Name: Deer Zoo          	Course Number: 1010		Grade: B
+		Name: Foo Done          	Course Number: 2240		Grade: C
+		Name: Foo Done          	Course Number: 2240		Grade: C
+		Name: Hard Marry        	Course Number: 3310		Grade: B
+		Name: Francisco Chang   	Course Number: 2240		Grade: B
+		Name: Hard Marryt       	Course Number: 3310		Grade: D
+		Name: Hodah Thomas      	Course Number: 2240		Grade: D
+		Name: Hodah Thomast     	Course Number: 3310		Grade: D
+		Name: Thomas Hardy      	Course Number: 3310		Grade: B
+		Name: Liz Clay          	Course Number: 3510		Grade: C
+		Name: John Blew         	Course Number: 3450		Grade: I
+		Name: Kayla Jessie      	Course Number: 3310		Grade: B
+		Name: Morenot Antonio   	Course Number: 3310		Grade: A
+		Name: Quincey Joes      	Course Number: 4441		Grade: A
+		Name: Nice Lolah        	Course Number: 2240		Grade: B
+		Name: Nona Lana         	Course Number: 1120		Grade: B
+		Name: Patricio Simpson  	Course Number: 2240		Grade: A
+		Name: Thomas Hardyt     	Course Number: 3310		Grade: D
+		Name: Walt              	Course Number: 2330		Grade: A
+		Name: Waka Young        	Course Number: 2240		Grade: A
+		Name: Victoria Ashworth 	Course Number: 1120		Grade: B
+		Name: Walt Disney       	Course Number: 3310		Grade: A
+
+Inorder
+	Inorder traversal is:
+		Name: Aiden Maden       	Course Number: 3310		Grade: D
+		Name: Aj Gup            	Course Number: 3310		Grade: B
+		Name: Aj Gupt           	Course Number: 3310		Grade: D
+		Name: Alina Sofia       	Course Number: 3310		Grade: C
+		Name: Amma Mia          	Course Number: 3310		Grade: A
+		Name: Ana Trujillo      	Course Number: 1120		Grade: B
+		Name: Antonio Moreno    	Course Number: 3310		Grade: B
+		Name: Antonio Morenot   	Course Number: 3310		Grade: D
+		Name: Aqua              	Course Number: 0000		Grade: C
+		Name: Blah Blah         	Course Number: 1110		Grade: E
+		Name: Caleb  Caden      	Course Number: 3310		Grade: A
+		Name: Christina Berglund	Course Number: 1120		Grade: B
+		Name: Clay              	Course Number: 1110		Grade: F
+		Name: Clay Liz          	Course Number: 3410		Grade: B
+		Name: Deer Zoo          	Course Number: 1010		Grade: B
+		Name: Doe John          	Course Number: 2020		Grade: A
+		Name: Elizabeth Lincoln 	Course Number: 1120		Grade: B
+		Name: Foo Done          	Course Number: 2240		Grade: C
+		Name: Foo Done          	Course Number: 2240		Grade: C
+		Name: Foo Done          	Course Number: 2240		Grade: C
+		Name: Francisco Chang   	Course Number: 2240		Grade: B
+		Name: Hard Marry        	Course Number: 3310		Grade: B
+		Name: Hard Marryt       	Course Number: 3310		Grade: D
+		Name: Hodah Thomas      	Course Number: 2240		Grade: D
+		Name: Hodah Thomast     	Course Number: 3310		Grade: D
+		Name: Jane Dane         	Course Number: 1120		Grade: B
+		Name: John Blew         	Course Number: 3450		Grade: I
+		Name: Kayla Jessie      	Course Number: 3310		Grade: B
+		Name: Liz Clay          	Course Number: 3510		Grade: C
+		Name: Morenot Antonio   	Course Number: 3310		Grade: A
+		Name: Nice Lolah        	Course Number: 2240		Grade: B
+		Name: Nona Lana         	Course Number: 1120		Grade: B
+		Name: Patricio Simpson  	Course Number: 2240		Grade: A
+		Name: Quincey Joes      	Course Number: 4441		Grade: A
+		Name: Thomas Hardy      	Course Number: 3310		Grade: B
+		Name: Thomas Hardyt     	Course Number: 3310		Grade: D
+		Name: Victoria Ashworth 	Course Number: 1120		Grade: B
+		Name: Waka Young        	Course Number: 2240		Grade: A
+		Name: Walt              	Course Number: 2330		Grade: A
+		Name: Walt Disney       	Course Number: 3310		Grade: A
+
+Postorder
+	Postorder traversal is:
+		Name: Aiden Maden       	Course Number: 3310		Grade: D
+		Name: Amma Mia          	Course Number: 3310		Grade: A
+		Name: Alina Sofia       	Course Number: 3310		Grade: C
+		Name: Aqua              	Course Number: 0000		Grade: C
+		Name: Caleb  Caden      	Course Number: 3310		Grade: A
+		Name: Blah Blah         	Course Number: 1110		Grade: E
+		Name: Clay              	Course Number: 1110		Grade: F
+		Name: Deer Zoo          	Course Number: 1010		Grade: B
+		Name: Doe John          	Course Number: 2020		Grade: A
+		Name: Clay Liz          	Course Number: 3410		Grade: B
+		Name: Elizabeth Lincoln 	Course Number: 1120		Grade: B
+		Name: Christina Berglund	Course Number: 1120		Grade: B
+		Name: Antonio Morenot   	Course Number: 3310		Grade: D
+		Name: Antonio Moreno    	Course Number: 3310		Grade: B
+		Name: Ana Trujillo      	Course Number: 1120		Grade: B
+		Name: Aj Gupt           	Course Number: 3310		Grade: D
+		Name: Francisco Chang   	Course Number: 2240		Grade: B
+		Name: Hodah Thomast     	Course Number: 3310		Grade: D
+		Name: Hodah Thomas      	Course Number: 2240		Grade: D
+		Name: Hard Marryt       	Course Number: 3310		Grade: D
+		Name: Hard Marry        	Course Number: 3310		Grade: B
+		Name: Foo Done          	Course Number: 2240		Grade: C
+		Name: Foo Done          	Course Number: 2240		Grade: C
+		Name: Foo Done          	Course Number: 2240		Grade: C
+		Name: Aj Gup            	Course Number: 3310		Grade: B
+		Name: Kayla Jessie      	Course Number: 3310		Grade: B
+		Name: John Blew         	Course Number: 3450		Grade: I
+		Name: Patricio Simpson  	Course Number: 2240		Grade: A
+		Name: Nona Lana         	Course Number: 1120		Grade: B
+		Name: Nice Lolah        	Course Number: 2240		Grade: B
+		Name: Quincey Joes      	Course Number: 4441		Grade: A
+		Name: Morenot Antonio   	Course Number: 3310		Grade: A
+		Name: Liz Clay          	Course Number: 3510		Grade: C
+		Name: Victoria Ashworth 	Course Number: 1120		Grade: B
+		Name: Waka Young        	Course Number: 2240		Grade: A
+		Name: Walt Disney       	Course Number: 3310		Grade: A
+		Name: Walt              	Course Number: 2330		Grade: A
+		Name: Thomas Hardyt     	Course Number: 3310		Grade: D
+		Name: Thomas Hardy      	Course Number: 3310		Grade: B
+		Name: Jane Dane         	Course Number: 1120		Grade: B
+
+Insert: Justin:Fetrow, 3240, B
+	Justin Fetrow added at index 49
+
+Insert: Mat:Buser, 2230, A
+	Mat Buser added at index 25
+
+Insert: Zach:Paschiza, 1310, A
+	Zach Paschiza added at index 62
+
+Insert: Zoo:Zamin, 4210, C
+	Zoo Zamin added at index 126
+
+Search: Aloo:Potato
+	Aloo Potato not found
+
+Search: Potato
+	Potato not found
+
+Search: Aloo
+	Aloo not found
+
+Delete: Aloo:Potato
+	Aloo Potato was not deleted as no match was found
+
+Delete: June:Doe
+	June Doe was not deleted as no match was found
+
+Inorder
+	Inorder traversal is:
+		Name: Aiden Maden       	Course Number: 3310		Grade: D
+		Name: Aj Gup            	Course Number: 3310		Grade: B
+		Name: Aj Gupt           	Course Number: 3310		Grade: D
+		Name: Alina Sofia       	Course Number: 3310		Grade: C
+		Name: Amma Mia          	Course Number: 3310		Grade: A
+		Name: Ana Trujillo      	Course Number: 1120		Grade: B
+		Name: Antonio Moreno    	Course Number: 3310		Grade: B
+		Name: Antonio Morenot   	Course Number: 3310		Grade: D
+		Name: Aqua              	Course Number: 0000		Grade: C
+		Name: Blah Blah         	Course Number: 1110		Grade: E
+		Name: Caleb  Caden      	Course Number: 3310		Grade: A
+		Name: Christina Berglund	Course Number: 1120		Grade: B
+		Name: Clay              	Course Number: 1110		Grade: F
+		Name: Clay Liz          	Course Number: 3410		Grade: B
+		Name: Deer Zoo          	Course Number: 1010		Grade: B
+		Name: Doe John          	Course Number: 2020		Grade: A
+		Name: Elizabeth Lincoln 	Course Number: 1120		Grade: B
+		Name: Foo Done          	Course Number: 2240		Grade: C
+		Name: Foo Done          	Course Number: 2240		Grade: C
+		Name: Foo Done          	Course Number: 2240		Grade: C
+		Name: Francisco Chang   	Course Number: 2240		Grade: B
+		Name: Hard Marry        	Course Number: 3310		Grade: B
+		Name: Hard Marryt       	Course Number: 3310		Grade: D
+		Name: Hodah Thomas      	Course Number: 2240		Grade: D
+		Name: Hodah Thomast     	Course Number: 3310		Grade: D
+		Name: Jane Dane         	Course Number: 1120		Grade: B
+		Name: John Blew         	Course Number: 3450		Grade: I
+		Name: Justin Fetrow     	Course Number: 3240		Grade: B
+		Name: Kayla Jessie      	Course Number: 3310		Grade: B
+		Name: Liz Clay          	Course Number: 3510		Grade: C
+		Name: Mat Buser         	Course Number: 2230		Grade: A
+		Name: Morenot Antonio   	Course Number: 3310		Grade: A
+		Name: Nice Lolah        	Course Number: 2240		Grade: B
+		Name: Nona Lana         	Course Number: 1120		Grade: B
+		Name: Patricio Simpson  	Course Number: 2240		Grade: A
+		Name: Quincey Joes      	Course Number: 4441		Grade: A
+		Name: Thomas Hardy      	Course Number: 3310		Grade: B
+		Name: Thomas Hardyt     	Course Number: 3310		Grade: D
+		Name: Victoria Ashworth 	Course Number: 1120		Grade: B
+		Name: Waka Young        	Course Number: 2240		Grade: A
+		Name: Walt              	Course Number: 2330		Grade: A
+		Name: Walt Disney       	Course Number: 3310		Grade: A
+		Name: Zach Paschiza     	Course Number: 1310		Grade: A
+		Name: Zoo Zamin         	Course Number: 4210		Grade: C
+
